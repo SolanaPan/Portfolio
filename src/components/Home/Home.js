@@ -6,7 +6,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  // AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
