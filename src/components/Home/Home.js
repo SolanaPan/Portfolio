@@ -8,7 +8,7 @@ import {
   AiFillGithub,
   // AiOutlineTwitter,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
 
 function Home() {
   return (
@@ -56,6 +56,26 @@ function Home() {
               Feel free to <span className="purple">contact </span>with me
             </p>
             <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://t.me/atpy101"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaTelegramPlane />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://wa.me/381659797852"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaWhatsapp />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/SolanaPan"

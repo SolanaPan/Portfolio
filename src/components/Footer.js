@@ -4,7 +4,7 @@ import {
   AiFillGithub,
   // AiOutlineTwitter,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -20,6 +20,26 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+            <li className="social-icons">
+              <a
+                href="https://t.me/atpy101"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTelegramPlane />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://wa.me/381659797852"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp />
+              </a>
+            </li>
             <li className="social-icons">
               <a
                 href="https://github.com/SolanaPan"
